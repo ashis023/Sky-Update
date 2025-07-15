@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky-Update</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="img/sky.png" type="image/x-icon">
+
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img src="img/search.png" alt=""></button>
+        </div>
+        <div class="error" style="display: none;">
+            <p>Invalid city name</p>
+        </div>
+        <div class="weather">
+            <img src="img/rain.png" class="weather-icon" alt="">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+            <div class="col">
+                <img src="img/humidity.png" alt="Humidity Icon">
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="img/wind.png" alt="Wind Icon">
+                <div>
+                    <p class="wind-speed">15 km/h</p>
+                    <p>Wind speed</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="scripts/app.js"></script>
+</body>
+</html>
